@@ -5,6 +5,7 @@ const path  = require('path');
 const crypto = require('crypto');
 
 const HF_TOKEN = process.env.HF_API_TOKEN || '';
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 const MODELS = {
   kokoro:     'hexgrad/Kokoro-82M',
