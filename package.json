@@ -1,0 +1,6 @@
+{
+  "name": "voicegen",
+  "version": "1.0.0",
+  "description": "AI Voice Studio",
+  "engines": { "node": ">=18" }
+}
